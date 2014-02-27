@@ -300,7 +300,6 @@ public class IkastaroAlarmaZerbitzuaActivity extends Activity {
 	@Override
 	protected void onRestoreInstanceState(Bundle state) {
 		super.onRestoreInstanceState(state);
-		System.out.println("Egoera berreskuratzen");
 		
 		String testua = "";
 
@@ -369,7 +368,6 @@ public class IkastaroAlarmaZerbitzuaActivity extends Activity {
 		// Berreskuratu maiztasuna
 		maiztasuna_segundo = state.getInt("uneko_maiztasuna",
 				Konstanteak.MAIZTASUNA_DEFAULT);
-		System.out.println("maiz: " + maiztasuna_segundo);
 		maiztasun_hautatua.setText(EskaeraKonfigurazioa
 				.maiztasunaToMaiztasunaText(maiztasuna_segundo));
 		
@@ -380,8 +378,6 @@ public class IkastaroAlarmaZerbitzuaActivity extends Activity {
 		// Berreskuratu zerbitzua abiatzeko/gelditzeko botoien egoera				
 		abiatuBotoia.setEnabled(state.getBoolean("abiatuta_gaituta"));
 		geldituBotoia.setEnabled(state.getBoolean("geldituta_gaituta"));
-		System.out.println("Geldituta: " + state.getBoolean("geldituta_gaituta"));
-		System.out.println("gelditu botoia gaituta: " + geldituBotoia.isEnabled());
 		
 		// Berreskuratu kofigurazio botoien egoera
 		lekuakBotoia.setClickable(!geldituBotoia.isEnabled());
@@ -558,7 +554,6 @@ public class IkastaroAlarmaZerbitzuaActivity extends Activity {
 						textViewMotakHautatuak.setText(testua);
 						if (!motaDialog.getEzetzi()) {
 							// gaitu/desgaitu beharrezko botoiak
-							System.out.println(ikastaroMotakHautatuak);
 							konf.setIkataroMotak(ikastaroMotakHautatuak);
 							if (!konfigurazioaGorde.isEnabled()
 									&& konf.konfigurazioaZuzena())
@@ -899,8 +894,6 @@ public class IkastaroAlarmaZerbitzuaActivity extends Activity {
 							.get(0);
 					String testua = (String) ikastaroMotakHautatuakMap.get(1);
 					textViewMotakHautatuak.setText(testua);
-					System.out.println("Ezetzi aurretik"
-							+ motaDialog.getEzetzi());
 					if (!motaDialog.getEzetzi()) {
 						System.out.println("Ez da ezetzi");
 						// gaitu/desgaitu beharrezko botoiak
