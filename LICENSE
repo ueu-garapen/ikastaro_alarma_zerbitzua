@@ -1,0 +1,32 @@
+Introduction
+
+Ikastaro alarma zerbitzua GNUv2 lizentziarekin banatzen da.
+
+Hala ere erabilitako liburutegiak direla eta beste lizentzia mota batzuk ere aplikatzen dira. Kasu huetan MIT, BSD eta Apache lizentziak erabiltzen dira orokorrean. Zehaztapen gehiagotarako proiektuen lizentziak aztertu.
+
+Detaileak
+
+    Ikastaro alarma zerbitzua, GNUv2, https://github.com/ueu-garapen/ikastaro_alarma_zerbitzua
+    Ksoap2-android, MIT, https://github.com/mosabua/ksoap2-android
+    kxml2, permissive license, https://github.com/mosabua/kxml2
+    kobjects, permissive license, https://github.com/mosabua/kobjects
+    xmlpull, public domain, https://github.com/mosabua/xmlpull
+
+/**
+ * Copyright (C) 2013  Udako Euskal Unibertsitatea informatikaria@ueu.org
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
+

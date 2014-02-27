@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="laguntza">
+        <![CDATA[
+        <html><body style="background-color:#000000;color:#FFFFFF;">
+        <h1>Deskribapena</h1>
+        <p style="text-align:justify">Ikastaroen alarma zerbitzua Udako Euskal Unibertsitatearen jarduera akademikoa jarraitzeko zerbitzua da. Honen bidez, ikastaro berrien informazioa momentuan jasoko da norberak zehaztutako iragazki batzuen arabera: tokia, mota, jakintza-arloa.</p>
+        <p style="text-align:justify">Iragazkiak, menuaren bitartez zehaztu daitezke edota pantailaren goiko partean agertzen diren botoietatik.</p>
+		</body></html>
+		]]>
+    </string>
+</resources>

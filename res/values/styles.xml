@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="label">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="emaitza_label">
+        <item name="android:textColor">#aaa</item>
+    </style>
+</resources>

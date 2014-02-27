@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UEU −− ikastaroen alarma</string>
+    <string name="param_lekuak">Tokiak</string>
+    <string name="ikastaro_motak_etiketa">Ikastaro motak</string>
+    <string name="lekuak_etiketa">Tokiak</string>
+    <string name="param_motak">Ikastaro motak</string>
+    <string name="jakintzak_etiketa">Jakintza-arloak</string>
+    <string name="param_jakintzak">Jakintza-arloa</string>
+    <string name="maiztasuna_prompt">Eskuratze-maiztasuna</string>
+    <string name="maiztasuna_etiketa">Eskuratze-maiztasuna</string>
+    <string-array name="maiztasuna_arrays">
+        <item >1 ordu</item>
+        <item >6 ordu</item>
+        <item >12 ordu</item>
+        <item >1 egun</item>
+    </string-array>
+    <string name="gorde">Gorde</string>
+    <string name="ezetzi">Ezetzi</string>
+    <string name="bilatu_hint">bilatu</string>
+    <string name="garbitu">Desegin hautaketa</string>
+    <string name="hasiera_izenburua">Konfigurazio-aukerak</string>
+    <string name="maiztasuna_label">Eskuratze-maiztasuna</string>
+    <string name="abiatu">Abiatu alarma-zerbitzua</string>
+    <string name="gelditu">Gelditu alarma-zerbitzua</string>
+    <string name="konf_gorde">Gorde konfigurazioa</string>
+    <string name="logoa">UEU logoa</string>
+    
+    <string name="hasiera_data">Hasiera-data:</string>
+    <string name="bukaera_data">Bukaera-data:</string>
+    <string name="tokia">Tokia:</string>
+    <string name="ordutegia">Ordutegia:</string>
+    <string name="izaera">Izaera:</string>
+    <string name="ordukop">Ordu-kopurua:</string>
+    <string name="matrikula_hasi">Matrikula-epearen hasiera:"</string>
+    <string name="matrikula_buka">Matrikula-epearen bukaera:</string>
+    <string name="ikastaro_izenburua">Izenburua</string>
+    <string name="errorea">Errorea</string>
+    <string name="ikastaro_berriak_oharra">Ikastaro berriak</string>
+    <string name="sare_errorea">Errore bat gertatu da konfigurazio-aukerak eskuratzean.\r\nEgiaztatu sareko konexioa badagoela.</string>
+    <string name="ados">Ados</string>
+    <string name="lanean">Lanean&#8230;</string>
+    <string name="konf_aukerak"> Konfigurazio-aukerak eskuratzen</string>
+    <string name="lekuakDialogIzenburua">Tokia</string>
+    <string name="motakDialogIzenburua">Ikastaro-mota</string>
+    <string name="konf_errorea">Konfigurazio-aukera guztiak zehaztu</string>
+    <string name="jakintzakDialogIzenburua">Jakintza-arloa</string>
+    <string name="zerbitzua_martxan">Ikastaroen alarma-zerbitzua abiatu da</string>
+    <string name="zerbitzua_gelditua">Ikastaroen alarma-zerbitzua gelditu da</string>
+    <string name="oharra_izenburua">Ikastaro berriak www.ueu.org-n</string>
+    <string name="oharra_testua">klikatu informazio gehiago eskuratzeko</string>
+    <string name="menu_item_laguntza">Laguntza</string>
+    <string name="menu_item_honiburuz">Honi buruz</string>
+    <string name="bertsioa">0.0.1</string>
+    <string name="ikastaro_sarrera">Sarrera:</string>
+    <string name="bisitatu_ikastaroa">Ikusi osorik ueu.org-n</string>
+    <string name="nabigatzailearik_ez">Ez daukazu instalatuta nabigatzailerik orria bisitatzeko</string>
+</resources>

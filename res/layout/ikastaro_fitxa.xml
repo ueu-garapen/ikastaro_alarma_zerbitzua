@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:id="@+id/IkastaroFitxaIzenburua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ikastaro_izenburua" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dip" >
+
+            <TextView
+                android:id="@+id/IkastaroFitxaHasieraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/hasiera_data"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/IkastaroFitxaHasiera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaHasieraLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:text=""
+                style="@style/emaitza_label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+
+            <TextView
+                android:id="@+id/IkastaroFitxaBukaeraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaHasiera"
+        		android:layout_alignParentLeft="true"
+                android:text="@string/bukaera_data"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+                android:id="@+id/IkastaroFitxaBukaera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaBukaeraLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaTokiaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaBukaera"
+                android:layout_alignParentLeft="true"
+                android:text="@string/tokia"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaTokia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaTokiaLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaOrdutegiaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaTokia"
+                android:layout_alignParentLeft="true"
+                android:text="@string/ordutegia"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+
+            <TextView
+                android:id="@+id/IkastaroFitxaOrdutegia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaOrdutegiaLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+                        
+            <TextView
+                android:id="@+id/IkastaroFitxaIzaeraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaOrdutegia"
+                android:layout_alignParentLeft="true"
+                android:text="@string/izaera"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+                
+            <TextView
+                android:id="@+id/IkastaroFitxaIzaera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaIzaeraLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaOrdukopLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaIzaera"
+                android:text="@string/ordukop"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+
+            <TextView
+                android:id="@+id/IkastaroFitxaOrdukop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaOrdukopLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />                
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaMatrikulaHasieraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaOrdukop"
+                android:text="@string/matrikula_hasi"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaMatrikulaHasiera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaMatrikulaHasieraLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaMatrikulaBukaeraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaMatrikulaHasiera"
+                android:text="@string/matrikula_buka"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+
+            <TextView
+                android:id="@+id/IkastaroFitxaMatrikulaBukaera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:layout_below="@id/IkastaroFitxaMatrikulaBukaeraLabel"
+                android:text=""
+                style="@style/emaitza_label"                
+                android:textAppearance="?android:attr/textAppearanceMedium" />                       
+            
+            <TextView
+                android:id="@+id/IkastaroFitxaSarreraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IkastaroFitxaMatrikulaBukaera"
+                android:text="@string/ikastaro_sarrera"
+                style="@style/label"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <WebView
+                android:id="@+id/IkastaroFitxaSarrera2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:layout_below="@id/IkastaroFitxaSarreraLabel"
+                android:text=""
+                android:background = "#000000"
+                android:textColor = "#FFFFFF"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/buttonUEU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/IkastaroFitxaSarrera2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/bisitatu_ikastaroa" />
+            
+            </RelativeLayout>
+</LinearLayout>
+</ScrollView>

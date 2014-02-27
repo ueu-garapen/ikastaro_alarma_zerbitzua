@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+        <EditText
+        	android:id="@+id/jakintza_iragazkia"
+        	android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:hint="@string/bilatu_hint"
+        	android:layout_marginRight="6dp"
+        	android:layout_marginLeft="6dp" />
+
+	    <TextView
+	        android:id="@+id/dialogButtonGarbitu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:drawableRight="@android:drawable/ic_menu_close_clear_cancel"
+	        android:gravity="center_vertical"
+	        android:text="@string/garbitu"
+	        android:layout_marginRight="6dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    <ListView
+        android:id="@+id/jakintza_zerrenda"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:cacheColorHint="#00000000"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/gorde" />
+
+        <Button
+            android:id="@+id/dialogJakintzaEzetzi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/ezetzi" />
+    </LinearLayout>
+
+</LinearLayout>

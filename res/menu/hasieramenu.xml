@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/lekuakitem"
+          android:icon="@android:drawable/ic_menu_mapmode"
+          android:title="@string/lekuak_etiketa" android:showAsAction="always"/>
+    <item android:id="@+id/jakintzakitem"
+          android:icon="@android:drawable/ic_input_get"
+          android:title="@string/jakintzak_etiketa"
+          android:showAsAction="always" />
+    <item android:id="@+id/ikastaroMotakitem"
+          android:icon="@drawable/icon_ikastaro_mota"
+          android:title="@string/ikastaro_motak_etiketa"
+          android:showAsAction="always" />
+    <item android:id="@+id/maiztasunaitem" 
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/maiztasuna_etiketa"
+        android:showAsAction="always"></item>
+    <item android:id="@+id/honi_buruz" android:icon="@android:drawable/ic_menu_info_details" android:title="@string/menu_item_honiburuz"></item>
+    <item android:id="@+id/laguntza" android:icon="@android:drawable/ic_menu_help" android:title="@string/menu_item_laguntza"></item>
+</menu>
